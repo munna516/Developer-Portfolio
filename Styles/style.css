@@ -46,6 +46,10 @@
     border: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Nav Style */
 nav {
     display: flex;
@@ -112,24 +116,46 @@ main {
     width: 580px;
 }
 
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* About style */
 .about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 
-.about-title {
+.section-title {
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
+
 .about-item-description {
     font-weight: bold;
+}
+
+/* What I do seciton */
+.skill-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+.skill-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
