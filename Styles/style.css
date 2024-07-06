@@ -7,11 +7,6 @@
         "wdth" 100;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 /* Shared Style */
 .secondary-bg {
     background-color: #FFF8F3;
@@ -150,12 +145,59 @@ main section {
     gap: 30px;
     margin-top: 80px;
 }
-.skill-title{
+
+.skill-title {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .skill {
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
+
+/* Resume section */
+.resume-container {
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.resume-container hr {
+    margin: 20px 0px;
+}
+.resume-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.education-tile,
+.experience-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.education-subtitle,
+.experience-subtitle {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #757575;
+}
+
+.education-description,
+.experience-description {
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #757575;
+}   
