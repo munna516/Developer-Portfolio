@@ -100,7 +100,6 @@ main {
 .banner-title {
     font-size: 85px;
     font-weight: 700;
-
 }
 
 .banner-content {
@@ -123,7 +122,8 @@ main section {
     text-align: center;
 }
 
-.section-title {
+.section-title,
+.footer-column-title {
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -167,7 +167,8 @@ main section {
 .resume-container hr {
     margin: 20px 0px;
 }
-.resume-title{
+
+.resume-title {
     font-size: 50px;
     font-weight: 700;
 }
@@ -200,4 +201,29 @@ main section {
     margin-bottom: 25px;
     font-weight: 500;
     color: #757575;
-}   
+}
+
+
+/* footer style */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: no;
+}
